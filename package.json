@@ -1,0 +1,12 @@
+{
+  "name": "colombia.schools-cypress",
+  "version": "1.0.0",
+  "description": "cypress test suite - colombia schools",
+  "dependencies": {
+    "cypress": "^14.3.0",
+    "cypress-plugin-steps": "^1.2.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open"
+  }
+}
