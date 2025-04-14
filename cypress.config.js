@@ -4,6 +4,7 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {},
     baseUrl: 'http://localhost:8080',
+    experimentalStudio: true
   },
 
   pageLoadTimeout: 30000,
@@ -18,16 +19,11 @@ module.exports = defineConfig({
   screenshotsFolder: 'cypress/screenshots',
   videosFolder: 'cypress/videos',
 
-  screenshotOnRunFailure: true,
   video: true,
   videoUploadOnPasses: false,
   videoCompression: 32,
   trashAssetsBeforeRuns: true,
-
-  retries: {
-    runMode: 1,
-    openMode: 0
-  },
+  screenshotOnRunFailure: true,
 
   env: {
     username: 'admin',

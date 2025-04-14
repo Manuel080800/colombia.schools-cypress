@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "cypress test suite - colombia schools",
   "dependencies": {
+    "@faker-js/faker": "^9.7.0",
     "cypress": "^14.3.0",
+    "cypress-codegen": "^2.4.4",
     "cypress-plugin-steps": "^1.2.0"
   },
   "scripts": {
